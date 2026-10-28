@@ -1,0 +1,15 @@
+KATTERUMS JAKTLAG v2.5.9 - KORRIGERAD KOMPLETT BAS
+
+Den uppladdade v2.5.8-basen hade en konkret inkonsekvens i index.html:
+- sidtiteln var 2.5.8
+- men den synliga versionsraden i HTML var fortfarande 2.5.6
+Detta är nu rättat.
+
+v2.5.9:
+- index.html visar 2.5.9 redan innan JavaScript körs
+- app.js har auktoritativ version 2.5.9
+- resurser använder ?v=259
+- Service Worker använder separat cache v259
+- befintlig app-, jakt- och Supabase-logik är i övrigt bevarad
+
+Ladda upp samtliga filer i ZIP-filen till GitHub-repots rot.
